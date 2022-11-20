@@ -40,7 +40,7 @@ function Client(firstName, secondName, age) {
   this.secondName = secondName;
   this.age = age;
   logOnlyFirstAndSecondName = function () {
-    console.log('your client is' , firstName , secondName)
+    console.log('your client is' , this.firstName + ' ' + this.secondName)
   }
 }
 
